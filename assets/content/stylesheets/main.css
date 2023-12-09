@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    background: url('../images/void.gif') fixed center;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px; /* Adjust the font size as needed */
+    font-weight: 700; /* Bold */
+}
+
+p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition effect */
+}
+
+.social-icons a:hover {
+    color: #f7f5f9; /* Change the color on hover */
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Keep the original transition effect */
+}
+
+.download-button:hover {
+    color:#fff;
+    background-color: #45a049;
+}
+.downloads-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.download-item {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px; /* Set a fixed width for each item or adjust as needed */
+}
+
+h2 {
+    margin: 0;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
